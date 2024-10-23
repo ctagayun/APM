@@ -8,6 +8,12 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <pm-root></pm-root>
+  <!-- This bootstrap the app. pm-root is the selector: 'pm-root in app.component.ts-->
+  <pm-root>
+     <!-- the HTML of selected page is inserted here. But how does the Angular
+          compiler know about this HTML element?
+          Answer: it looks for Angular Module in this case app.module.ts
+      -->
+  </pm-root>
 </body>
 </html>

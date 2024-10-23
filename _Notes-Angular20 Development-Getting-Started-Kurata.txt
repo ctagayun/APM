@@ -68,6 +68,9 @@ Module 2:
           }
         )
 
+    - BOOTSTRAPPING App.component see comments in:
+          app.component.ts and index.html
+
     - an angular app is a collection of components
 
     - a component has a life cycle hooks: OnInit, OnChanges, OnDestroy these hooks are interfaces
