@@ -40,8 +40,18 @@
 
 Module 2:
    What is a Component
+    - tip in adding import statements using intellisense
+        - type the decorator or function you need. Select it. VS code
+          will automatically add the import statement. Example:
+          @Component --> click or select. Import statement will be added
+
     - Angular CLI creates the initial component .. the App component
       (we need to modify this component based on our application REQUIREMENTS)
+
+    - a component has a view and a code-behind class. And an extra data called Meta-Data which
+      defines the class as an Angular componet. Metadata has:
+         - decorator - it is a function that adds metadata to a class
+
     - a component includes interface fragments defining a view for the application
 
     - we use angular binding and directives (in the html) to power up the view.
@@ -80,6 +90,7 @@ Module 2:
       - passing data to the container:
           - the inner component exposes an event using @Output
               @Output() notify: eventEmitter<string> = new eventEmitter<string>();
+
 
   2. SERVICES AND DEPENDNECY INJECTION:
       - building a service: create a class; import what we need for the srvice and define
@@ -432,8 +443,27 @@ Module 3: First things First
   3. Creating Angular application from scratch using Angular CLI
       https://app.pluralsight.com/course-player?clipId=6f97c3df-0511-4f83-86f7-411bd1ad260
 
-      - we need to install Amgular CLI globally --> command prompt --> npm install -g @angular/cli
+      - we need to install Amgular CLI globally --> command prompt -->
+        npm install -g @angular/cli
 
+      - ng new apm-new --prefix pm
+
+      - note that angular cli create index.html and the app.component.ts in  src/app folder
+
+Module 4: Intro to Components
+  1.
+
+
+
+
+Module 5:
+
+
+Module 6:
+
+Module 7:
+
+Module
 
 Useful Links
 
